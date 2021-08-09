@@ -359,6 +359,7 @@ DUAL_MODE_HELPER(jitANewArrayNoZeroInit,2)
 DUAL_MODE_ALLOCATION_HELPER(jitNewArray,2)
 DUAL_MODE_ALLOCATION_HELPER(jitNewArrayNoZeroInit,2)
 SLOW_PATH_ONLY_HELPER(jitAMultiNewArray,3)
+SLOW_PATH_ONLY_HELPER(jitHeapifyStackObject,1)
 
 dnl jitStackOverflow is special case in that the frame size argument
 dnl is implicit (in the register file) rather than being passed as
